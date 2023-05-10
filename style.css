@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 
-.background-color-red{
-    background-color: red;
-    height: 100px;
+.background-color-grey{
+    background-color:rgba(248,249,250,255);
     position: fixed;
     z-index: 100;
 }
+    
 
 .background-color-black{
-    background-color: black;
+    background-image: url(./img/sidebar-bg.png);
+    background-color:rgba(5,30,52,255);
     height: 900px;
     position: fixed;
     z-index: 99;
@@ -31,11 +32,78 @@
 
 .position{
     position: relative;
-    top: 100px;
+    top: 40px;
 }
 
-.content{
-background-color: coral;
-height: 100px;
 
+.background-color-purple{
+    background-color: purple;
+}
+
+
+
+
+.container-bottom{
+    position: relative;
+    top: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+   
+   
+
+.block{
+    display: block;
+    margin-top: 15px;
+}
+
+.content-blue{
+text-align: left;
+margin-left: 50px;
+color: white;
+}
+
+h5{
+    display: inline-block;
+    color: white;
+ 
+}
+
+form{
+    display: inline-block;
+   
+}
+    
+.content-blue-top{
+    width: 65%;
+    margin: 0 auto;
+    background-color: red;
+    height: 50px;
+    text-align: left;
+}
+    
+
+.btn-add{
+   
+    margin-left: 10px;
+    padding: 7px 19px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.btn-plane{
+    color: white;
+    margin-left: 10px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    background-color:rgba(22,91,186,255);
+    border: 1px solid rgba(22,91,186,255);
+}
+
+
+.btn-capo{
+    display: block;
 }
