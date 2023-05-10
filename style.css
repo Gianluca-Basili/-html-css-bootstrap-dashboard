@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background-color-red{
+    background-color: red;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+}
+
+.background-color-black{
+    background-color: black;
+    height: 900px;
+    position: fixed;
+    z-index: 99;
+}
+
+.background-color-yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+}
+
+.background-color-blue{
+    background-color: blue;
+    width: 100%;
+}
+
+.position{
+    position: relative;
+    top: 100px;
+}
+
+.content{
+background-color: coral;
+height: 100px;
+
+}
